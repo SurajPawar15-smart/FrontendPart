@@ -1,0 +1,667 @@
+
+Git Crash Course with Git Extensions
+1.introductio to git
+https://git-scm.com/downloads
+http://gitextensions.github.io/
+https://sourceforge.net/projects/kdiff3/files/kdiff3/
+
+
+
+
+local repo=========clone it=====  cloud(remote repo)
+
+repo:where the file are save
+all file in remote repo clone to local repo.
+
+fetch=>
+
+
+work done with local and remote:
+
+local (file)=>
+do a change we first add.
+then commit->means saving the code
+then push the changes=>upload the code
+
+remote:
+remote =>local (pull the code from remote to local machine).
+
+
+local  main-master branch (project starts) =>
+
+
+
+2.setting up git and git extension
+
+3.cloning remote repo to your pc:
+
+
+
+4.adding,commiting and pushing changes:
+
+
+
+5.mergining branches:
+
+
+6.checkout:branch and commit:
+
+
+
+
+
+*************************************************
+Practical Git & Github Bootcamp for Developers
+*************************************************
+Github
+Bitbucket
+Gitlab
+
+You will learn about Importance of using Version Control System(VCS)
+
+You will learn about the most popular VCS - Git/Github
+
+You will learn to use Git commands from Git bash & Terminal
+
+You will learn to use Git commands from Visual  Studio Code editor
+
+You will learn to use Git commands from Intellij editor
+
+You will learn the branching strategy and pull request process
+
+You will learn how Continuous Integration process works in a project in IT industry
+
+You will learn about different best practices than a developer should follow while working in a project
+
+Git clone
+
+Git branch
+
+Git status
+
+Git merge
+
+Git stash
+
+Git resolve
+
+Git commit
+
+Git push
+
+Git revert
+
+Git history
+
+Git tag
+
+Git revert
+
+much more
+
+
+3. Creating your own Github account and Github repository:
+
+
+Task 01:local computer to github repository:
+Repository name:flexbox-mediaquery
+create repository
+
+4. Understanding the initial git commands
+
+1.git init
+2.git add .
+3.git commit -m "first name"
+4.git remote add origin https://github
+5.git push -u origin master
+
+5. Generating Personal Access Token for your github account:
+
+developer setting=>personal access token=>login with password=>Note:commiting local code=>choose the scope=>generate token=>copy this token
+
+5.git remote set-url origin https://<USER>:<MYTOKEN>@github.com/USER/REPO.git
+
+
+6. Installing Git bash and Performing different git operations
+serach on google: git bash download:
+Download: Bit Bash
+
+7.git push --set-upstream origin master
+
+
+git-commands.txt(file save with code and again add it using git bash)
+
+git add .
+git commit -m "added git command file"
+git push 
+
+
+
+>cd ..
+>git clone <pasteusrl>
+
+download from github to local desktop (our desktop)
+
+
+7. Perform git operation through Terminal or Command Line:
+
+vs code editror:
+
+source control(2):
+then we click on 
+
+right click:open git bash:
+>git status
+>git add .
+>git commit -m "my commit"
+>git push
+
+or
+
+vs code editror:
+
+source control(2):
+then we click on 
+
+open new terminals:
+git status
+git add .
+git commit -m "changes"
+git push
+
+click on commit number:in github
+
+
+8. Understanding Branching Strategy in Git & Github:
+clik on branch:master default branch
+
+master:development create branch development from master
+
+
+9. Commit Push From VS code Editor
+test2.html
+master:
+origin/development -branch
+
+new terminal:
+>git checkout master
+>git checkout development
+
+
+test2.html:
+
+source control(3):
+red:old file
+green:modified
+
+3 changes=>modified code=>(commit)click on arrow tick=>sync changes =>then refersh
+(...)=>pull,push=>push
+
+development has resent pushes less than one  minites.
+
+10. Pull request and Review Process for code merge between branches
+development branch to master branch all the devp code so that run in production environments.
+
+
+development=>
+pull request>new pull request>base:master<--base:development =>create pull request.
+
+Modified code
+write:
+plz review my code
+then click on create a pull request
+
+files changes>
+
+[+]plz improve code indentation or spacing
+add single commit
+
+
+(development branch)
+pull request feedback impletemnet plz review again>commit>pul,pull->push
+
+
+
+merge pull request:
+when merge is complete then only development to master
+
+then when we go to master branch 
+
+pull request feedbach implemented plz revieq again
+
+
+
+11. Git Pull Branch change Git Clone from VS Code Editor:
+
+edit in the github file only:
+(master branch)
+test file modified modified ...!!!
+
+then commit changes:
+
+
+development branch in vscode:
+master> (...) =>then pull all changes will comes.
+
+
+source control>(...) =>clone from github =>
+
+*************************************************
+A Gentle Introduction to Git - by SuperSimpleDev
+*************************************************
+1. Intro to the Course
+what is git?
+
+2. Install Git
+
+3. Project Setup
+
+git-tutorial(New Folder Name)
+
+config.js(file name)
+src(new folder)
+console.log("index.js");
+console.log("version-01");
+
+
+4. Git Setup
+
+5. Creating a Version / Commit
+
+git init
+git status
+git add config.js (only config.js file is added)
+or
+git add . (both src and config.js file is added)
+git status
+
+NOTE:
+version=commit
+
+git commit -m "Version 1"
+git config --global user.email  ""
+git config --global user.name ""
+git commit -m "Version 1"
+
+git log (version history)
+
+(when new file is added index.html)
+git add .
+git commit -m "version 2" --amend
+git log
+
+
+6. Visualizing Git
+
+git status
+
+vscode()=>source control=>+=>
+stating area (changes here will in the next version)
+---------------------------------
+
+git reset config.js
+git reset src
+or
+git reset .
+
+-------------------------------
+git checkout --config.js 
+git checkout -- .
+
+or use the turn arrow.
+
+
+
+7. Completing Our Version History
+
+git log 
+
+8. Viewing Previous Version of our Code
+
+git checkout <commithash>
+
+git log
+
+git log --all
+
+9. Restoring Code to a Previous Version
+
+git log --all --graph
+git checkout master 
+
+
+
+alias:
+
+git config --global alisa.s "status"
+git config --global alisa.cm "commit"
+git config --global alisa.co "checkout"
+
+git cm
+
+--------------------------------------
+secret.txt:password and 
+
+
+.gitihnore
+secrets.txt
+
+git status
+git add .
+git commit -m "add git ignore"
+
+-----------------------------------------
+new copy of the folder:fit-tutorial-2
+-----------------------------------------
+
+git log
+rm -rf .git
+
+it will remove all the folder and things
+
+git log 
+fatel:not a git repository (or any of the parent directories):.git
+
+
+
+********************************************************
+Free Hosted Website on GitPages and simple Git Guide
+********************************************************
+
+1. GitPage Introduction
+signing up at Github:
+
+3. Setup GitHub Account
+
+
+4. Create a Repo
+
+5. Upload Files:
+upload files=>choose your files=>select the files=>commit changes
+
+
+6. Share the files Create GitPage:
+
+settings:
+reponsitory name:
+github page:
+source:master branch=>your site is readt to publish 
+
+github.com/discoveryvip2/mypro/index.html
+
+
+
+7. Git Branches
+
+master=>dev
+
+
+
+8. Pull Request and Merge Branches
+
+
+
+9. Install Git on Your Machine
+
+git --version
+git config --global user.name ""
+git config --global user.name ""
+
+10. Connect to the Repo
+
+git clone ""
+
+
+11. Edit Files Locally
+
+
+
+git add *
+git status
+
+
+
+12. Upload Files Push
+
+
+
+13. Bootstrap Framework
+
+git help
+
+git switch master
+git switch styling
+git switch -c react
+git branch
+git log
+
+
+git merge styling
+
+8. SSH Keys:
+
+github.com
+
+
+ssh-keygen -t ed25519 -C "gamil,.com"
+:password
+:password
+
+clear
+
+eval "$(ssh-agent -s)"
+
+
+
+9. GitHub Basics
+master->default
+
+
+git branch styling
+git switch styling
+git branch
+
+index.html
+styles.css
+
+*{margin:0;
+padding:0px;
+boz-sizing:border-box;
+}
+
+git add style.css
+git commit -m "added some"
+git push origin styles
+
+
+Stop
+11. GitHub deleted the Repositories 
+
+git log
+git tag 1.0.0. <codeof version1>
+git log
+
+
+*************************
+Create a new repository
+Create with these steps:
+
+create a new project directory
+
+open it
+
+type the command  git init
+
+You created a new git repository.
+
+4. Create a new repository (video)
+5. Add files to your project
+Add files to your project
+Adding files to your project is not just drag and drop.
+
+Besides moving files into your directory, you need to type some commands.
+
+You can add files using the commands:
+
+
+
+git add <filename>
+
+git add *
+
+
+
+This is the first step when working with git. To commit these changes use the command:
+
+
+
+git commit -m "Commit message"
+
+
+
+Now the file is committed, but it is not your remote repository yet.
+
+
+6. Add & Commit
+7. Remote repository
+
+Remote repository
+Online Git services
+
+You can put your project online in a so called remote repository. By doing this, multiple people can work on the same project.
+
+There are several free services available for this including Github, Gitlab and Bitbucket. You may also choose to setup your own Git service using Gogs.
+
+
+
+Putting your Project online
+
+By typing the git commit command your changes are in your local working copy.
+
+
+
+To send  to remote repository:
+
+git push origin master
+
+
+
+To connect to a remote repository:
+
+git remote add origin <server>
+
+
+8. Push your changes Online
+
+9. Checkout online repository
+Checkout online repository
+Work on Online Git project
+
+If you want to work on an existing Git project, you need to download it to your computer.
+
+To download, you can use this command:
+
+git clone username@host:/path/to/repository
+
+Popular Git services will give you the link of your Git repository.
+
+
+
+Work on Local Network Git project
+
+If it's on a network drive, you can use the command:
+
+git clone /path/to/repository
+
+
+10. Cloning
+
+11. View Project History
+12. Differences between Commits
+13. Undo
+Undo
+Sometimes people make mistakes. If you made a mistake but didn't push it to the online git repository yet, you can undo with:
+
+git commit --amend
+That may be like this:
+
+git commit -m 'Initial commit'
+git add forgotten_file
+git commit --amend
+If you already put your mistakes online in the remote git repository, you can roll back using the next video (you will lose all changes)
+
+
+
+Stop
+14. Switch Project Version
+
+15. What is branching
+
+What is branching
+Branches let you work on features isolated from each other. You can think of a branch as a copy of the entire project, but changes don't affect what the other programmers are doing.
+
+The master branch is the default branch. Git lets you switch between branches and you can mix branches together (called merging).
+
+Consider the image below, where:
+
+master branch is the default branch
+
+a branch named "your work" is created
+
+a branch named "someone else's work" is created
+
+The two people work on the branches individually. And changes are merged into the master project.
+
+
+Commands
+
+To create a branch named feature_x
+
+git checkout -b feature_x
+
+
+
+To switch branch to the master branch
+
+git checkout master
+
+
+
+To delete a branch
+
+git branch -d feature_x
+
+
+
+To put your branch online
+
+git push origin <branch>
+
+
+
+To merge a branch
+
+git merge <branch>
+
+17. Sync project and Merge
+
+
+Sync project and Merge
+If you use an online git repository, other people can make changes at the same time. To turn your git project into the latest version, run the command git pull
+
+If you work in a branch, you can merge your changes with git merge <branch>
+
+
+18. Updating & Merging
+
+
+
+*************************************************************
+https://github.com/jayant2014/reference/blob/master/git.md
+*************************************************************
+best:
+
+udemy courses:Command Line Git
+
+
+
