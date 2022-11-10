@@ -1,0 +1,1324 @@
+Introduction to Visual Studio Code:
+******************************************
+Visual Studio Code is a code editor in layman’s terms. Visual Studio Code is “a free-editor that helps the programmer write code, helps in debugging and corrects the code using the intelli-sense method ”. In normal terms, it facilitates users to write the code in an easy manner. Many people say that it is half of an IDE and an editor, but the decision is up to to the coders. Any program/software that we see or use works on the code that runs in the background. Traditionally coding was used to do in the traditional editors or even in the basic editors like notepad! These editors used to provide basic support to the coders.
+
+Some of them were so basic that it was very difficult in writing basic English level programs in them. As time went by, some programming languages needed a specific framework and support for further coding and development it, which was not possible using these editors. VI Editor, Sublime Text Editor, is one of the many kinds of editors that came into existence. The most prominent and which supports almost every coding language is VISUAL STUDIO CODE. Its features let the user modify the editor as per the usage, which means the user is able to download the libraries from the internet and integrate it with the code as per his requirements.
+
+
+What can Visual Studio Code do?
+*************************************
+
+Support for multiple programming languages: Supports multiple programming languages. So earlier, programmers needed Web-Support: a different editor for different languages, but it has built-in multi-language support. This also means it easily detects if there’s any fault or cross-language reference, it’ll be able to detect it easily.
+Intelli-Sense: It can detect if any snippet of code is left incomplete. Also, common variable syntaxes and variable declarations are made automatically. Ex: If a certain variable is being used in the program and the user has forgotten to declare, intelli-sense will declare it for the user.
+Cross-Platform Support: Traditionally, editors used to support either Windows or Linux or Mac Systems. But Visual Studio Code is cross-platform. So it can work on all three platforms. Also, the code works on all three platforms; else, the open-source and proprietary software codes used to be different.
+Extensions and Support: Usually supports all the programming languages but, if the user/programmer wants to use the programming language which is not supported then, he can download the extension and use it. And performance-wise, the extension doesn’t slow down the editor as it rums as a different process.
+Repository: With the ever-increasing demand for the code, secure and timely storage is equally important. It is connected with Git or can be connected with any other repository for pulling or saving the instances.
+Web-Support: Comes with built-in support for Web applications. So web applications can be built and supported in VSC.
+Hierarchy Structure: The code files are located in files and folders. The required code files also have some files, which may be required for other complex projects. These files can be deleted as per convenience.
+Improving Code: Some code snippets can be declared a bit differently, which might help the user in the code. This function prompts the user, wherever necessary, to change it to the suggested option.
+Terminal Support: Many of the times, the user needs to start from the root of the directory to start with a particular action, in-built terminal or console provides user support to not to switch in-between two screens for the same.
+Multi-Projects: Multiple projects containing multiple files/folders can be opened simultaneously. These projects/folders might or might not be related to each other.
+Git Support: Resources can be pulled from Git Hub Repo online and vice-versa; saving can be done too. Resource pulling also means cloning the code which is made available on the internet. This code can later be changed and saved.
+Commenting: A common feature, but some of the languages do not support it. Commenting on the code helps the user to recall or track according to the sequence he wants.
+
+
+Advantages and Why should we use Visual Studio Code:
+***********************************************************
+1.Cross-platform support :
+
+Windows
+Linux
+Mac
+2. Light-weight
+
+3. Robust Architecture
+
+4. Intelli-Sense
+
+5. Freeware: Free of Cost- probably the best feature of all for all the programmers out there, even more for the organizations.
+
+6. Many users will use it or might have used it for desktop applications only, but it also provides great tool support for Web Technologies like; HTML, CSS, JSON.
+
+
+Visual Studio Scope (The most common languages are):
+******************************************************
+
+C#
+Visual Basic
+Java-Script
+R
+XML
+Python
+CSS
+GO
+PERL
+Another feature that naïve-users or anyone can see instantly different from other editors is the user-friendliness of the Visual Studio Code. The usability is very easy to handle. The file is arranged hierarchically and has regular software like a toolbar, status bar, and a sidebar. It also has a floating windows explorer window, which can be fixed at one place according to convenience, which consists of the directory structure of files. These files (code files, image folders, etc.) can be opened or renamed from here, and changes will automatically get reflected in the storage.
+
+Why do we need Visual Studio Code?
+**************************************
+Till recent times, there’s hardly been an IDE or code editor that has been so user-friendly that even first-time users can use each and every feature without any hassles. The coding-friendly feature and code error recognition also helps users a long way into making the code more efficient and error-less.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Setting up Visual Studio Code:
+********************************
+Getting up and running with Visual Studio Code is quick and easy. It is a small download so you can install in a matter of minutes and give VS Code a try.
+
+Cross platform#
+VS Code is a free code editor, which runs on the macOS, Linux, and Windows operating systems.
+
+Follow the platform-specific guides below:
+***********************************************
+
+1>macOS
+2>Linux
+3>Windows
+VS Code is lightweight and should run on most available hardware and platform versions. You can review the System Requirements to check if your computer configuration is supported.
+
+Extensions#
+VS Code extensions let third parties add support for additional:
+
+Languages - C++, C#, Go, Java, Python
+Tools - ESLint, JSHint , PowerShell
+Debuggers - PHP XDebug.
+Keymaps - Vim, Sublime Text, IntelliJ, Emacs, Atom, Brackets, Visual Studio, Eclipse
+Extensions integrate into VS Code's UI, commands, and task running systems so you'll find it easy to work with different technologies through VS Code's shared interface. Check out the VS Code extension Marketplace to see what's available.
+
+How big is VS Code?#
+VS Code is a small download (< 100 MB) and has a disk footprint of less than 200 MB, so you can quickly install VS Code and try it out.
+
+How do I create and run a new project?#
+VS Code doesn't include a traditional File > New Project dialog or pre-installed project templates. You'll need to add additional components and scaffolders depending on your development interests. With scaffolding tools like Yeoman and the multitude of modules available through the npm package manager, you're sure to find appropriate templates and tools to create your projects.
+
+How do I know which version I'm running?#
+On Linux and Windows, choose Help > About. On macOS, use Code > About Visual Studio Code.
+
+
+Additional components and tools
+Visual Studio Code is a small download by design and only includes the minimum number of components shared across most development workflows. Basic functionality like the editor, file management, window management, and preference settings are included. A JavaScript/TypeScript language service and Node.js debugger are also part of the base install.
+
+If you are used to working with larger, monolithic development tools (IDEs), you may be surprised that your scenarios aren't completely supported out of the box. For example, there isn't a File > New Project dialog with pre-installed project templates. Most VS Code users will need to install additional components depending on their specific needs.
+
+Commonly used components#
+Here are a few commonly installed components:
+
+1>Git - VS Code has built-in support for source code control using Git but requires Git to be installed separately.
+2>Node.js (includes npm) - A cross platform runtime for building and running JavaScript applications.
+3>TypeScript - The TypeScript compiler, tsc, for transpiling TypeScript to JavaScript.
+You'll find the components above mentioned often in our documentation and walkthroughs.
+
+Why did we build Visual Studio Code?
+Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.
+First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.
+
+
+
+
+Available for macOS, Linux, and Windows#
+Visual Studio Code supports macOS, Linux, and Windows - so you can hit the ground running, no matter the platform.
+
+
+Edit, build, and debug with ease#
+At its heart, Visual Studio Code features a lightning fast source code editor, perfect for day-to-day use. With support for hundreds of languages, VS Code helps you be instantly productive with syntax highlighting, bracket-matching, auto-indentation, box-selection, snippets, and more. Intuitive keyboard shortcuts, easy customization and community-contributed keyboard shortcut mappings let you navigate your code with ease.
+
+For serious coding, you'll often benefit from tools with more code understanding than just blocks of text. Visual Studio Code includes built-in support for IntelliSense code completion, rich semantic code understanding and navigation, and code refactoring.
+
+And when the coding gets tough, the tough get debugging. Debugging is often the one feature that developers miss most in a leaner coding experience, so we made it happen. Visual Studio Code includes an interactive debugger, so you can step through source code, inspect variables, view call stacks, and execute commands in the console.
+
+VS Code also integrates with build and scripting tools to perform common tasks making everyday workflows faster. VS Code has support for Git so you can work with source control without leaving the editor including viewing pending changes diffs.
+
+
+Make it your own#
+Customize every feature to your liking and install any number of third-party extensions. While most scenarios work "out of the box" with no configuration, VS Code also grows with you, and we encourage you to optimize your experience to suit your unique needs. VS Code is an open-source project so you can also contribute to the growing and vibrant community on GitHub.
+
+Built with love for the Web#
+VS Code includes enriched built-in support for Node.js development with JavaScript and TypeScript, powered by the same underlying technologies that drive Visual Studio. VS Code also includes great tooling for web technologies such as JSX/React, HTML, CSS, SCSS, Less, and JSON.
+
+Robust and extensible architecture#
+Architecturally, Visual Studio Code combines the best of web, native, and language-specific technologies. Using Electron, VS Code combines web technologies such as JavaScript and Node.js with the speed and flexibility of native apps. VS Code uses a newer, faster version of the same industrial-strength HTML-based editor that has powered the "Monaco" cloud editor, Internet Explorer's F12 Tools, and other projects. Additionally, VS Code uses a tools service architecture that enables it to integrate with many of the same technologies that power Visual Studio, including Roslyn for .NET, TypeScript, the Visual Studio debugging engine, and more.
+
+Visual Studio Code includes a public extensibility model that lets developers build and use extensions, and richly customize their edit-build-debug experience.
+
+Ready, set, code!#
+If you prefer a code editor-centric development tool or are building cross-platform web and cloud applications, we invite you to try out Visual Studio Code and let us know what you think!
+
+
+
+
+
+
+
+
+
+
+
+*********************************
+Git with Visual Studio Code
+*********************************
+
+1.Introduction:
+how to install git(windows,linux,mac)
+basic commands
+how you can use inside visual studio code.
+
+we will touch most of the commands you need to get started quickly with git:
+-init
+-commit
+-branch
+-push
+-pull
+-how to handle commit conflicts
+
+
+2. Git installation:
+https://git-scm.com/download/win
+ 
+c:\users\suraj>git --version
+
+3. Git basic commands:
+
+create a folder name git_pratciles
+$ git status
+$ git init
+$ git status
+
+create a file in our folder>intial.txt
+
+$ git add .
+$ git status
+$ git commit -m "First commit"
+$ git status
+$ git push 
+fatal:no configured 
+
+Notes:
+git status:display the state of the working directory and the staging area.
+git init:creates a new git repository
+git add .:git add adds changes in the working directory to the staging area.
+git commit -m "commit message" :captures a snapshot of the project currently staged changes.
+git push-push commits from the local branch to a remote repository.
+
+4. GitHub interface overview:
+
+signup :username and password
+github:create a new repository
+new>repository name>git_practice>public>ssh ____
+
+$ git remote add origin url
+$ git push origin master
+Username for "https://github.com":
+Password for "https://github.com":
+
+initial.txt file are added in that folder of github repository
+
+search: aws sdk-js
+code ,branches,issues,release,contributors etc.
+
+clone copy link
+
+$ git clone url
+***from the github to my computer directly come in my system.
+
+$ cd aws-sdk-js/
+$ code .
+
+Notes:
+1>github.com -host for software development version control using git.
+2>create an account:tip pick a short username
+3>create a remote repository and get it's url.
+4>git remote add origin yourRepoUrl
+5>git push origin master
+6>git clone repoUrl -copy locally a repository.
+
+5. Visual Studio Code installation:
+
+install:
+npm install -g typescript
+
+compile:
+tsc helloworld.ts
+
+Visual studio:
+Visual studio code
+sublime text
+atom
+eclipse
+emacs
+webstorm
+vim
+
+6. Git in VsCode:
+$ code .
+
+create new repository: backEnd
+$ git clone url
+$ 
+
+>git add remote
+Remote name:origin
+
+Remote URL: url paste
+
+click on three dot :select push>click on ok
+Username:
+Password:
+
+Notes:
+use the source control view
+initialize repository
+stage the changes,add a commit message and commit.
+vscode command:git add remote
+Remote name:origin
+git push and provide github credentials.
+
+
+7. Git commit:
+
+/**
+This is the constructor
+**/
+
+old version | new version
+
+git icons>
+Update version + then tick that 
+discard changes then discard changes icons.
+
+npm install
+
+refresh icon> then click on yes >.gitignore >node modules
+
+add git ignore  1>stage it(+)  2>tick()  3>three dot push
+and then provide username and password:
+
+Notes:
+modified files now appear in the source control view
+open them in the diff view
+discard changes if they are not correct
+add a .gitignore to ignore large folders(libraries) or sensitive info.
+
+8. Git branches:
+branch:master
+find ar create a branch >feature/some_feature >create branch:from masters
+
+branck:feature/some_feature
+
+
+(left side)master branch >click on that
+then cal syn button >
+
+go to the cmd:
+$ git pull
+*[new branch] feature/some_feature
+
+(left side)master branch >click on that feature/some_feature
+
+/**
+this is commenrs
+**/
+
+stage them ,then tick,then three dot push then username and password.
+
+$ git pull
+$ git checkout  -b fix/critical_fix
+
+fix bug>+ ,then tick then push
+
+Notes:
+can be created from the github interface
+git pull:notify about changes on the remote repository
+git checkout -b "newBranchName" :create branch with the local changes.
+
+9. Git handling conflicts:
+
+fix/crtical_fic >compare and pull request>able to merge
+merge pull request
+
+then line :add fix bug >confirm merge
+
+feature/some_feature (in left side)
+$ git checkout master 
+
+master
+$ git pull
+$  git checkout feature/come_feature
+$  git merge master
+
+stage changes>tick>push>username and password
+
+Notes:
+git checkout master
+git pull
+git checkout featureBranch
+git merge master
+->fix the conflicts
+git commit
+
+
+10. Git lens:
+
+extension:gitlens
+history of our project
+
+1>click on gitlens>
+
+$ git clone url
+Notes:
+Reporitories
+File hostory
+line history
+compare
+search commits
+
+
+
+
+
+11. Markdown
+
+Readme.md
+markdown language:
+right click and open its prview>
+
+# EmplManagerBackEnd
+
+Simple NodeJs backdend service for retriving employees by positions.
+
+##Setup
+
+The project requires npm and nodeJs installed
+
+### Build Project
+1. Install typescript `npm install -g typescript`
+2. Install npx: `npm install npx`
+3. Install project dependencies: `npm install`
+
+## Launch server
+
+1. `npm ts-node src/Server.ts`
+2. Check localhost as post|8080 (https://localhost:8080/)
+
+## Services:
+
+| Position | Url |
+|------------ |------------|
+|All Employee  |http:localhost:8080/ |
+
+
+settings:
+
+update readme>+,then tick>push >
+
+
+lightweight markkup language with plain text formatting sntax (makes text files look cool)
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Great for formatting readme files
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************
+Mastering Visual Studio Code
+**********************************
+section 1:Introduction
+
+
+1.How to take this course:
+
+part 1:install vscode -for multiple plateform
+-skip to second part if you already installed it:)
+
+part 2:first steps with vscode
+part 3:coding with code
+1>get familiar with vscode ,explore the interface
+2>use it as an editor
+3>use it as an ide ,see how we can code with it(TS AND JS).
+
+part 4:vscode for web design:
+writing html-emmet abbreviations
+css
+live server extensions
+
+part 5:remote development with VSCode
+Remote SSH
+Docker
+Develop inside a container
+
+Part 6:Extensions:
+visual adjustments
+Productivity
+Frameworks
+
+
+part 7:sorce control in vscode
+git install and basic commands
+github overview
+commit,branches ,conflicts
+extensions:git lens,live share
+markdown
+
+installation and first contact in vscode
+python debugger
+formatting and linting
+python unit tests
+
+part:java in vscode:
+installation and first contact in vscode
+code assist for java
+use external libraries
+maven in vscode
+debugger and unit tests.
+
+
+
+part 11:building a vscode extension:
+initial setup
+creating extension commands
+finalize and install our own extension
+
+part 12:vscode insights and course conclusions:
+put particular interest topics
+learn about vscode from the inside out-Electron
+Consclusions
+
+2. VSCode installation:
+
+add to path
+add "open the code"action to windows explore directory context menu
+add "open the code"action to windows explore file context menu.
+
+
+
+section 2:First step with vscode
+
+3. Section intro:
+interface
+command palette and keyborad shortcuts
+working with files
+settings
+workspaces
+extensions
+
+open ManagerServer folder>
+
+4. Visual Studio Code interface:
+open the vscode >
+
+another way of opening vscode in cmd:
+>code .
+
+in windown>right project and select the vscode
+
+5. Command palette and keyboard shortcuts:
+
+view>command patllete
+
+clt+shift+P
+
+>font zoom in /out
+>reset window
+>active visibility
+>keyboards shortcuts
+
+6. Working with files:
+
+drag files in 4 files
+
+clt+P >
+
+search feature
+search:server
+replace:data
+
+select one file >right click find all references
+
+select any class or methods>call heriarchal
+
+mutli cursor:
+alt + clt + down arrow
+
+7. VSCode settings
+view>apprenace>zoom in or zoom out>
+
+clt+(font increasing)
+clt-(font decreasing)
+
+settings>color theme>
+>theme
+
+select file icons>vscode-icons
+vscode great icons
+material theme icons
+
+settings>
+search settings>save
+
+code actions on save
+format on save
+
+8. Workspaces:
+
+add folder to workspace
+
+
+9. VSCode Extensions:
+python
+eslint
+c/c++
+gitlens
+jupyter
+
+section 3:coding with code
+
+10. Section intro
+Intellisense
+linting and formating
+refactoring
+terminal and tasks
+the debugger
+debug front end code
+
+
+
+11. Intellisense:
+extension: visual studio intellicode 
+
+12. Linting and formatting:
+eslint
+npm install --save-dev eslint
+
+13. Refactoring with VSCode:
+
+14. Terminal and Tasks:
+
+select the schell
+clt+P
+
+15. The Debugger:
+16. Debugging front end code:
+degugger for chrome
+firefox
+mozilla
+
+section 4:web design:
+17. Section intro
+
+write html emmet abbreviations
+css
+live server extension
+
+
+18. Writing HTML
+
+<html>
+
+!
+
+div.container
+div.container>h2
+
+
+extensions:
+htmlhint
+
+.htmlhintrc.txt
+
+{
+
+"title-require":false;
+}
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="">
+html snippets
+html css support
+intellisence for css
+
+19. Writing CSS:
+
+20. Live Server Extension:
+live server
+
+section 5:remote development:
+21. Section intro
+
+Remote SSH
+docker
+develop indise a container
+
+extension:
+remote development
+
+22. Remote SSH
+extension:remote development
+remote wsl,ssh,containers
+
+>ssh localhost
+>clear
+>
+
+open ssh server
+>install openssh-server
+>service ssh status
+>ifconfig
+
+23. Docker for VSCode:
+>docker --version
+
+extension:docker microsoft
+
+create new file:
+(filename is )Dockerfile
+
+from node:latest
+workdir /app
+copy ./ /app
+run npm install
+expose 8080
+cmd ["npm",start]
+
+docker view:
+container:
+images
+registries
+networks
+volumes
+contexts
+help and feedback
+
+in cmd write commands:
+>docker images:build images
+latest
+
+message:successfully build images
+
+
+24. Developing inside a container
+
+
+>
+
+
+
+
+
+
+
+section 6:favorite extensions:
+26. Visual adjustments extensions
+
+icons@sort:installs
+material icons theme
+
+
+27. Productivity extensions
+
+
+code runner
+rest client
+paste json as code 
+
+
+28. Frameworks (React, Vue, Angular)
+angular language services
+angular snippets version 8
+vetur
+react native tools
+ember keys
+backbone.js snippets
+
+section 7:git
+29. Section intro
+git install and basic commands
+github overview
+commit branches conflicts
+extensions git lens,live share
+markdown
+
+30. Git install
+
+>git --version
+
+download from https://git-scm.com/downloads
+checkinstall with git --version
+linux:sudo apt install git -all
+
+31. Git basic commands
+
+git status
+git init
+git add .
+git status
+git commit -m "First commit"
+git status
+git push 
+
+create a repository:
+git remote add url
+git push origin master
+username:
+password:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section 8:python in vscode
+Stop
+41. Python installation
+
+pthon 3.8
+>python --version
+>pip --version
+
+42. Python in VSCode:
+python extension
+pip install requests
+
+
+import requests 
+response=requests.get("http://api.openweathermap.org/data/2.5/weather?")
+print(response.text)
+data=response.json()
+weather=data['waether'][0]
+description=weather['description']
+print(description)
+
+44. Python formatting and linting
+pip install pylint
+
+45. Python unit testing:
+
+
+
+
+43. Python debugger:
+
+
+
+
+section 9:java in vscode
+
+Stop
+48. Java installation
+java --version
+
+49. Java in VSCode
+
+
+java extension pack
+
+
+
+50. Java code assist
+
+
+
+51. Java - importing libraries:
+
+
+Junit5
+
+52. Java - using Maven:
+
+c/c++
+
+
+62. Section intro:
+
+
+
+
+section 10:c++ in vscode
+section 11:c# in vscode
+section 12:creating a vscode extension
+section 13:visual studio code insights
+
+
+**************************************
+Visual Studio Code hacks to boost your edition productivity.
+**************************************
+
+
+5. How to install visual studio code 2019
+https://code.visualstudio.com/
+
+
+
+1. Why VS Code?
+2. Get VS Code for Windows
+4. Get Around in VS Code
+5. Make Everything Easier with Extensions
+
+1. Introduction, Features and Extensions - Visual Studio Code
+2. Install VS Code on Windows 10
+
+
+6. Setup and Run Python on VS Code
+Step -01: install vs code
+Step -02: install python
+Step -03: connect python with vs code
+Step -04: run first python program on vs code
+
+file >preferences >font size:16
+demo.py right>run python pne terminal
+
+Step -01:install java 18
+Step -01:install vs code
+Step -01:connect vs code and java
+Step -01:run first java project on vs code.
+
+
+7. Setup and Run Java on VS Code:
+
+java --version
+
+javac Demo.java
+java Demo
+
+8. Run Java Code using the Terminal
+
+javac Demo.java =>class file is created
+java Demo
+
+
+9. Setup and Run C program on VS Code
+file name:demo.c
+
+#include<studio.h>
+void main(){
+printf("My first c program");
+}
+
+c/c++ extensions
+code runner
+
+right click>run the code
+
+10. Setup and Run HTML on VS Code
+
+open in browser
+demo.html code
+
+11. Setup and Run JavaScript on VS Code
+install nodejs
+
+
+>node -v
+>npm -v
+>node
+
+>console("Hello demo");
+Hello demo
+
+12. Setup and Run GO on VS Code
+
+
+go programming language:
+>go version
+
+vs code:
+extension: 
+code runner
+go
+
+
+demo.go:
+package main
+import "fmt"
+
+func main(){
+fmt.Print("Amit's first Go program...!!!")
+}
+
+
+13. Increase the Text Editor font size on VS Code:
+
+
+setting>preferences>settings >editor font size:18
+
+14. Increase Terminal Font on VS Code
+file>peferens>settings>search:terminal>font size:18
+
+15. How to Update VS Code
+
+help>about>1.65.2
+
+
+help>restart to update>
+
+version :1.68.1
+
+
+
+*******************************************
+
+Visual Studio Code Editor - The Complete Guide
+
+*******************************************
+
+1. Downloading & Installing VSC
+
+2. Opening A Project In VSC in 4 ways:
+
+1>make one folder in desktop> go to the open folder in vscode
+2>drag and drop in vscode extensions
+3>minimize the both side by side.
+4>open the cmd >cd (drag and drop the folder)
+code .
+
+3. User Interface:
+
+index.html
+
+!
+
+zoom in clt+ zoom out clt-
+
+(Activity bar)
+explore
+search
+source control git github
+debug:run and debug
+extension :extension areas
+
+account:
+settings:
+
+
+(side bar)
+any file and folders json db etc 
+
+(status area)
+
+
+(main area):write a code in 
+
+(Panel )terminal:
+problems
+output terminals Debug console
+
+4. Side Bar In VSC:
+
+new file>index.html>
+index.js
+index
+
+! (emmet abbre)
+shift+1
+
+title:vscode
+
+hide the side bar:
+clt+b
+
+new folder>packages
+
+settings:
+file icons theme
+product icon theme
+color theme
+
+extension search >tag:icon-theme
+chalic theme
+
+
+sidebar left to right :
+clt+p then select >view toggle side bar postions
+
+
+Stop
+5. Dragging Files & Terminal From One Place To Another:
+
+6. Installing Awesome & Weird Themes In VSC:
+material icons theme
+1>noctis
+2>Night owl
+2>Night owl light
+2>Night owl light(no italics)
+2>Night owl(no italics)
+Min Dark
+
+
+cobal 2 theme official
+cobalt2
+
+dracula
+
+slack
+slack theme
+
+win95
+
+hotdogstand
+
+synthware84
+
+monoki pro
+
+7. Breadcrumb's, minimap, autosave, Zen mode
+
+breadcrumbs:
+ul>li*3
+
+settings>prefernces>breadcrums>=>disable
+
+minimap
+ul>li*100
+
+shaded arean click and then down and up my mouse.
+
+autosave
+clt+s
+
+file>auto save
+
+Zen mode
+
+clt+k+g
+
+8. Finding & Replacing In Depth
+clt+f =>Heading 2 of 5 replace:Suraj Heading
+<h1>heading 1</h1>
+<h1>heading 1</h1>
+<h1>heading 1</h1>
+<h1>heading 1</h1>
+<h1>heading 1</h1>
+
+alt+enter =>web developer
+
+
+clt+shift+f =>in file and folders>
+
+
+9. Text Navigation:
+
+
+Stop
+10. Text Selection
+clt+shift+arrow left 
+
+11. Display Shortcuts
+
+
+12. General Shortcuts
+setting>preferences>tab search
+
+
+13. Navigation Shortcuts
+
+setting?preferences> clt+g
+:123 (go to this line)
+
+
+
+14. File Management Shortcuts
+
+
+15. Basic Editing Shortcuts
+
+clt+x =>cut the text
+clt+v =>paste the text
+
+h1 enter
+header enter
+#section
+header#top-header
+
+.className
+header.bottom-header
+
+
+
+***children elemenrs:
+ul>li>a
+
+header>nav
+ul>li>a.list-item
+header>nav>ul>li>a
+
+***sibling elemenet:
+
+header+nav
+<header><header>
+<nav></nav>
+
+
+nav>ul>li+h2
+
+
+*** ^(carrot symbole)
+header>nav>ul>li>a^h1{lorem}
+
+header>nav>ul>li>a^^h1{lorem}
+
+header>nav>ul>li>a^^^h1{lorem}
+
+
+***
+h1{hello world }*10
+
+section>article>header>ul>li>a
+(section>article>header>ul>li>a)*5
+section>article>header>ul>(li>a)*4
+
+***text inside the elements:
+h{$}
+h{$}*10    hide tab
+h${$}*10  
+
+h${$$}*12
+
+***semantic elements:
+mn=>main
+sect =>section
+art =>article
+hdr 
+ftr
+
+fig figure
+figc figurecaption
+nav
+audio
+video
+aside
+
+
+
+mn>sect>art>hdr>ul>(ul*a)*3^^sect>h1{welcome }+p{Lorem}
+
+
+h1{welcome to the}
+
+press f1
+>emmet wrap with abbrevaioom
+span.highlight
+
+
+19. CSS Emmet's In Depth:
+
+
+
+
+
+1. Making your vscode development environment more productive using focus
+
+vscode dimmer
+dimmer
+
+view>command pallate>dimmer  or toggle dimmer
+clt+shift+p
+
+2. Change border color of vscode window using extention peacock:
+peacock 
+
+view>command patele>peacock enter a color:#42b25  or cyan
+commad>patels>peacock yellow
+
+3. Managing keybinding (keyboard shortcuts) conflicts in vscode
+
+keyboard shortcuts>
+
+4. Comparing two files side by side inside vscode
+clt+shift+e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
